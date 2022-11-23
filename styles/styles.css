@@ -120,6 +120,13 @@ main .content .cancel {
   text-decoration: none;
 }
 
+footer {
+  color: #1F2E55;
+}
+footer a {
+  color: #382AE1;
+}
+
 @media (min-width: 600px) {
   body {
     background: url(../images/pattern-background-desktop.svg);

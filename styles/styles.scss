@@ -139,6 +139,13 @@ main {
   }
 }
 
+footer {
+  color: $price-header;
+  a {
+    color: $cta-color;
+  }
+}
+
 @media (min-width: 600px) {
 
   body {
