@@ -1,0 +1,175 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background: url("../images/pattern-background-mobile.svg") no-repeat;
+  background-size: 100% 50%;
+  background-color: #DFE6FB;
+}
+
+main {
+  width: 80%;
+  min-width: 330px;
+  max-width: 330px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+  border-radius: 20px;
+}
+main picture {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+main picture img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px 20px 0 0;
+  display: block;
+}
+main .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .content h1 {
+  margin: 32px 0 16px 0;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.375rem;
+  line-height: 1.813rem;
+  text-align: center;
+}
+main .content p {
+  margin: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.938rem;
+  line-height: 1.563rem;
+  text-align: center;
+  color: #717FA6;
+}
+main .content .price-container {
+  width: 90%;
+  background: #F7F9FF;
+  border-radius: 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 24px 0;
+}
+main .content .price-container .price-wrapper {
+  padding: 16px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 90%;
+}
+main .content .price-container .price-wrapper .price {
+  margin-left: 20px;
+}
+main .content .price-container .price-wrapper .price h4 {
+  margin: 0;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 0.875rem;
+  line-height: 1.188rem;
+  color: #1F2E55;
+}
+main .content .price-container .price-wrapper .price h5 {
+  margin: 3px 0 0 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.188rem;
+  color: #717FA6;
+}
+main .content .price-container .price-wrapper a {
+  margin: 0 0 0 auto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.813rem;
+  line-height: 1.063rem;
+  color: #382AE1;
+}
+main .content button {
+  margin: 0;
+  background: #382AE1;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+  border-radius: 11px;
+  border: none;
+  width: 80%;
+  padding: 15px;
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 0.938rem;
+  line-height: 1.25rem;
+  color: #FFFFFF;
+  margin-bottom: 24px;
+}
+main .content .cancel {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 0.938rem;
+  line-height: 1.25rem;
+  color: #717FA6;
+  margin-bottom: 32px;
+  text-decoration: none;
+}
+
+@media (min-width: 600px) {
+  body {
+    background: url(../images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: #DFE6FB;
+    background-size: 100% 50%;
+  }
+  main {
+    max-width: 450px;
+  }
+  main .content {
+    margin: 0 48px;
+  }
+  main .content h1 {
+    font-size: 1.75rem;
+    line-height: 2.313rem;
+  }
+  main .content p {
+    font-size: 1rem;
+    line-height: 1.625rem;
+  }
+  main .content .price-container .price-wrapper .price h4 {
+    font-size: 1rem;
+    line-height: 1.313rem;
+  }
+  main .content .price-container .price-wrapper .price h5 {
+    font-size: 1rem;
+    line-height: 1.313rem;
+  }
+  main .content .price-container .price-wrapper a {
+    font-size: 0.875rem;
+    line-height: 1.188rem;
+  }
+  main .content .price-container .price-wrapper a:hover {
+    color: #766CF1;
+    text-decoration: none;
+  }
+  main .content button {
+    font-size: 0.938rem;
+    line-height: 1.25rem;
+  }
+  main .content button:hover {
+    background-color: #766CF1;
+    cursor: pointer;
+  }
+  main .content a {
+    font-size: 0.938rem;
+    line-height: 1.25rem;
+  }
+  main .content a:hover {
+    color: #1F2E55;
+  }
+}/*# sourceMappingURL=styles.css.map */
